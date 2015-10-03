@@ -1,2 +1,2 @@
 # GuessingGame
-Guessing Game project for Fullstack Academy
+Guessing Game project for Fullstack Academy.
