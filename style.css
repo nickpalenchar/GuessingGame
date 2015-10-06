@@ -1,9 +1,20 @@
-/* Div's */
+body { /* Default text reset */
+    font-family: monospace
+}
 #container {
-    width: 600px;
+    width: 700px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 32px;
+    background: gray;
+    padding: 1px 5px 30px 5px;
+}
+.center-content {
+    text-align: center; 
+}
+.inline {
+    margin: auto;
+    display: inline-block;
 }
 #container h1, h4 {
     text-align: center;
@@ -12,16 +23,25 @@
     text-align: center;
     /*position:absolute;*/
     width: auto;
-    height: 100px;
+    height: 180px;
     border: 2px black;
 }
-#hint-row > .inline {
-    position: relative;
-    float: left;
-    width: 180px;
-    height: 120px; 
+#hint-row > div > .inline {
+    width: 140px;
+    height: 100px;
+    display: inline-block;
 }
-#input {
-    margin: 0 auto;
-    position: absolute;
+button {
+    margin: 2px 0px;
+}
+input {
+    width: 128px;
+}
+input, input.placeholder {
+    text-align: center;
+    font-family: monospace;
+    font-size: 50px
+}
+#feedback {
+    margin: 0px 0px 10px 0px;
 }

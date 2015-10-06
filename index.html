@@ -12,31 +12,34 @@
             <h4>Try to guess the number I am thinking of! Enter in the text field and hit "guess," or just hit "hint" and I'll give you a clue about a random number. Click "I'm feeling lucky"... IF YOU DARE!</h4>
             
         </div> <!--End title-container-->
-        <div id="game">
+        <div id="game" class="center-content">
             <div id="hint-row">
-                <div id="guess-lower" class="inline">
-                    (guess lower fdsfdasfdsafdasfsda)
-                </div>
-                <div id="last-guess" class="inline">
-                    Last guess:
-                </div>
-                <div id="guess-higher" class="inline">
-                    (guess higher)
+                <div id="feedback">6 Guesses Remaining</div>
+               <div class="row">
+                    <div id="guess-higher" class="inline" >
+                        .
+                    </div>
+                    <div id="last-guess" class="inline">
+                        Last Guess:
+                    </div>
+                    <div id="guess-lower" class="inline">
+                        .
+                    </div>
                 </div>
             </div>
-            <div id="user-row">
+            <div id="user-row" class="inline">
                 <div id="input">
-                    Your guess:
-                    <input id="user-guess">
-                </div><br/>
+                    Your guess:<br/>
+                    <input id="user-guess" maxlength="3" placeholder="000">
+                </div>
                 <div id="buttons">
-                    <button id="btn-guess" onclick="#">Guess</button>
-                    <button id="btn-hint" onclick="#">Hint</button>
+                    <button id="btn-guess" onclick="guess()">Guess</button><button id="btn-hint" onclick="#">Hint</button>
                     <br/>
                     <button id="btn-lucky" onclick="#">I'm feeling lucky</button> 
                 </div>
             </div>
         </div>
     </div>
-</body>    
+</body>
+<script src="script.js"></script>    
 </html>
