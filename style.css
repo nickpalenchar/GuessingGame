@@ -1,5 +1,6 @@
 body { /* Default text reset */
-    font-family: monospace
+    font-family: monospace;
+    background: url('http://www.backgroundlabs.com/wp-content/uploads/2013/06/seamless-pattern-of-circuit-board-black.png')
 }
 #container {
     width: 700px;
@@ -8,6 +9,9 @@ body { /* Default text reset */
     margin-top: 32px;
     background: gray;
     padding: 1px 5px 30px 5px;
+    
+    border: 2px solid aqua;
+    border-radius: 10px;
 }
 .center-content {
     text-align: center; 
@@ -30,9 +34,17 @@ body { /* Default text reset */
     width: 140px;
     height: 100px;
     display: inline-block;
+    margin: 0px 18px 0px 18px;
+}
+#input {
+    min-height: 84px;
 }
 button {
-    margin: 2px 0px;
+    margin: 2px;
+    background-color: aqua;
+    min-height: 30px;
+    min-width: 52px;
+    font-style: 
 }
 input {
     width: 128px;
