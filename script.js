@@ -78,6 +78,7 @@ $(document).ready(function() {
             $("#guess-lower").html(".");
             $("#error").hide();
             $("input").val("");
+            $("#last-guess-list").html("");
         }
     });
     $("#btn-hint").on('click', function(){
