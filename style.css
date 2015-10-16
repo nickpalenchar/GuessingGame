@@ -44,7 +44,6 @@ button {
     background-color: aqua;
     min-height: 30px;
     min-width: 52px;
-    font-style: 
 }
 input {
     width: 128px;
@@ -56,4 +55,27 @@ input, input.placeholder {
 }
 #feedback {
     margin: 0px 0px 10px 0px;
+}
+
+.btn-small {
+    min-height: 22px;
+    font-weight: bold;
+    color: #1f1f1f;
+    background-color: #b1c7c0;
+    height: 10px;
+}
+
+.error {
+    color: darkred;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    display: none;
+}
+#last-guess {
+    font-weight: bold;
+}
+#last-guess > span {
+    font-weight: 100;
+    color: #ffd2d2;
 }
